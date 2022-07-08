@@ -6,6 +6,12 @@ import Card from './Card';
 
 const CardList = ({robots}) => {
 
+    //Following if block is for testing ErrorBoundry Component.
+    // if (true )
+    // {
+    //     throw new Error("Nooooo")
+    // }
+
     
     const cardArray = robots.map((user, i) => {
         return( 
