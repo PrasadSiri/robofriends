@@ -19,7 +19,7 @@ class App extends Component {
 
     componentDidMount() {
         console.log('componentDidMount');
-        fetch('https://jsonplaceholder.typicode.com/photos')
+        fetch('https://jsonplaceholder.typicode.com/todos')
             .then(response => response.json())
             .then(users => this.setState({ robots: users }));
     }
